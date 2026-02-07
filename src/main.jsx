@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
 import { AuthProvider } from "./context/AuthContext";
-import { AppProvider as ErrandProvider } from "./context/ErrandContext";
+import { ErrandProvider } from "./context/ErrandContext";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

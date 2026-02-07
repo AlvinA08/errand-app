@@ -5,6 +5,9 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 
 import Home from "./pages/Home";
+import Discover from "./pages/Discover";
+import Profile from "./pages/Profile";
+
 import Market from "./pages/Market";
 import MarketList from "./pages/MarketList";
 import MarketReview from "./pages/MarketReview";
@@ -14,25 +17,21 @@ import ScheduleDelivery from "./pages/ScheduleDelivery";
 import DeliveryAddress from "./pages/DeliveryAddress";
 import ErrandSummary from "./pages/ErrandSummary";
 import Payment from "./pages/Payment";
-
 import PickUp from "./pages/PickUp";
 import OtherErrands from "./pages/OtherErrands";
 import ErrandsHistory from "./pages/ErrandsHistory";
-import Discover from "./pages/Discover";
-import Profile from "./pages/Profile";
 
 import SidebarLayout from "./components/SidebarLayout";
 
 export default function App() {
   return (
     <Routes>
-
-      {/* Public */}
+      {/* Public routes */}
       <Route path="/" element={<Welcome />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
 
-      {/* Authenticated */}
+      {/* Authenticated routes */}
       <Route element={<SidebarLayout />}>
         <Route path="/home" element={<Home />} />
         <Route path="/discover" element={<Discover />} />
@@ -55,6 +54,7 @@ export default function App() {
         <Route path="/payment" element={<Payment />} />
       </Route>
 
+      {/* Fallback */}
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   );
