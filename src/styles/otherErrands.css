@@ -1,0 +1,16 @@
+.other-errands {
+  padding: 30px;
+}
+
+.other-errands textarea {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.other-errands button {
+  background: #0d7a3c;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+}

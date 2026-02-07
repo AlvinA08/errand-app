@@ -1,0 +1,26 @@
+.profile-page {
+  padding: 30px;
+}
+
+.profile-card {
+  max-width: 400px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.profile-card input,
+.profile-card textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+.profile-card button {
+  background: #0d7a3c;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+}

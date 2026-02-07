@@ -1,0 +1,82 @@
+/* Page wrapper */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.login-header {
+  width: 100%;
+  background: #148642;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.login-header .logo {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Content area */
+.login-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px;
+}
+
+/* Card */
+.login-box {
+  width: 300px;
+}
+
+/* Title */
+.login-title {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+/* Form */
+.login-box label {
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+/* Button */
+.login-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: #e6a98b;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Footer links */
+.login-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  font-size: 13px;
+}
+
+.login-footer a {
+  text-decoration: none;
+  color: #148642;
+}
+
+.login-footer .skip {
+  color: #999;
+}

@@ -1,0 +1,42 @@
+/* styles/welcome.css */
+
+.welcome-container {
+  background: #148642;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-card {
+  text-align: center;
+  color: white;
+}
+
+.welcome-images {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.welcome-image {
+  width: 140px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+.welcome-text {
+  margin: 20px 0;
+}
+
+.explore-btn {
+  padding: 10px 25px;
+  background: yellow;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
